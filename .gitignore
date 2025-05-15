@@ -1,0 +1,28 @@
+myenv/# Ignore Python bytecode and virtual environment
+*/__pycache__/
+__pycache__
+*.py[cod]
+*.pyo
+
+# Ignore environment
+*/.env
+ENV/
+*/env/
+env
+*/venv
+*/.venv
+
+venv
+venv\*
+
+# Ignore Django migrations
+**/migrations/
+*.sqlite3
+
+# VSCode
+
+# macOS
+.DS_Store
+
+config.bat
+node_modules
